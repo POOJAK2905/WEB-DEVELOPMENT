@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viowport" content="width=divice-width, intial-scale=1.0">
+        <title> document</title>
+    </head>
+    <style>
+        body
+      ol{
+            counter-reset: item;
+            list-style-type: conter
+        }
+        li::befor {
+            counter-increment: item;
+            content: counter(1.1)". ";
+        }
+        ol ol li:befor{
+            content: counters(1.2)" ";
+        }
+    </style>
+    <body>
+        <h1> web property </h1>
+        <ul>
+
+        <li> html</li>
+        <li>css</li>
+        <li>bt</li>
+        </ul>
+    </body>
