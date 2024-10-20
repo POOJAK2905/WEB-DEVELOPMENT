@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{ margin: 0; padding: 0;box-sizing: border-box;border: 1px solid; }
+        .row{width: 80%; margin: auto; display: flex; background-color: rgb(24, 201, 229); gap: 5px;}
+        .flex-g-1{ background-color: rgb(47, 8, 144); flex-grow: 1;}
+        .h-200{height: 200px; }
+        .flex-g-2{ background-color: rgb(141, 28, 96); flex-grow: 1;}
+        .flex-g-5{ background-color: rgb(105, 127, 6); flex-grow: 5;}
+        .h-50{ height: 50px; align-content: center; text-align: center;}
+    </style>
+</head>
+<body>
+    <div class="row h-200">
+        <div class="flex-g-2">box 1</div>
+        <div class="flex-g-1">box 2</div>
+        <div class="flex-g-5">box 3</div>
+    </div>
+    <div class="row">
+        <div class="flex-g-5 h-50">box 3</div>
+        <div class="flex-g-2 h-50">box 1</div>
+        <div class="flex-g-1 h-50">box 2</div>
+    </div>
+
+</body>
+</html>
